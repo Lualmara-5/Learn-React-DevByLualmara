@@ -20,12 +20,12 @@ npm -v  #Debera mostrar la versión del npm que tienes instalado:  "10.9.3"
 En la terminal (CMD, PowerShell o terminal de VS Code):
 
 ```bash
-cd ~/Desktop                        # o cd C:\Users\TU_USUARIO\Desktop en Windows
+cd ~/Documents                        # o cd C:\Users\TU_USUARIO\Documents en Windows
 npm create vite@latest mi-proyecto  #Con lastest
 ```
 
 ```bash
-cd ~/Desktop                       # o cd C:\Users\TU_USUARIO\Desktop en Windows
+cd ~/Documents                      # o cd C:\Users\TU_USUARIO\Documents en Windows
 npm create vite@5.2.0 mi-proyecto  #Sin lastest
 ```
 
@@ -40,6 +40,13 @@ Nota:
 * **Project name:** (puedes dejar `mi-proyecto`)
 * **Framework:** `React`
 * **Variant:** `JavaScript` o `TypeScript`
+
+Nota: Elegir ya sea `JavaScript` o `TypeScript` con `SWC` 
+
+¿Por qué?:
+* No cambia nada en tu forma de programar React.
+* Compila más rápido que TypeScript puro.
+* Es estable y usado en proyectos reales.
 
 ---
 
