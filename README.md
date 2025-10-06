@@ -24,10 +24,13 @@ Learn-React-DevByLualmara/
 │   ├── vite-vs-create-react.md # Explicación de por qué usar Vite
 │
 ├── 02-basics/                  
-│   ├── components.md           # Qué son los componentes
-│   ├── props-state.md          # Props vs State
-│   ├── hooks.md                # Introducción a hooks (useState, useEffect)
-│   ├── jsx-tsx.md              # Diferencias entre JSX y TSX
+│   ├── components.md             # Qué son los componentes
+│   ├── jsx-tsx.md                # JSX vs TSX
+│   ├── props-state.md            # Props vs State
+│   ├── hooks.md                  # useState, useEffect
+│   ├── events.md                 # Eventos en React
+│   ├── conditional-rendering.md  # Renderizado condicional
+│   ├── lists.md                  # Listas y keys
 │
 ├── 03-projects/                
 │   ├── project-01-counter/     
