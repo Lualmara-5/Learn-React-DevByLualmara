@@ -118,7 +118,8 @@ Ya con esto tienes:
 * **React** (framework de UI).
 * **Vite** (herramienta que configura y levanta todo rápido).
 
-Tendrás un proyecto inicial de esta manera:
+Si hiciste todo bien, tendrás un proyecto inicial de esta manera:
+
 ![Estructura Inicial del proyecto](../Img/Estructura_Proyecto_Inicial.png)
 
 ---
