@@ -37,29 +37,71 @@ Nota:
 
 ## 3. Responder las preguntas de Vite
 
-* **Project name:** (puedes dejar `mi-proyecto`)
-* **Framework:** `React`
-* **Variant:** `JavaScript` o `TypeScript`
-
-Nota: Elegir ya sea `JavaScript` o `TypeScript` con `SWC` 
-
-¿Por qué?:
-* No cambia nada en tu forma de programar React.
-* Compila más rápido que TypeScript puro.
-* Es estable y usado en proyectos reales.
-
 ---
 
-## 4. Entrar a la carpeta y preparar dependencias
+### Pregunta #1
 
 ```bash
-cd mi-proyecto
-npm install
+Need to install the following packages:
+create-vite@8.0.2
+Ok to proceed? (y)
 ```
+
+* Escribir: `y`
 
 ---
 
-## 5. Arrancar el servidor de desarrollo
+### Pregunta #2
+
+```bash
+Select a framework:
+```
+
+* En este caso seleccionaremos `React`
+
+---
+
+### Pregunta #3
+
+```bash
+Select a variant:
+```
+
+* En este caso seleccionaremos `TypeScript + SWC`
+* **Nota:** Elegir ya sea `JavaScript` o `TypeScript` con `SWC` 
+* ¿Por qué?:
+  * No cambia nada en tu forma de programar React.
+  * Compila más rápido que TypeScript puro.
+  * Es estable y usado en proyectos reales.
+
+---
+
+### Pregunta #4
+
+```bash
+ Use rolldown-vite (Experimental)?:
+```
+
+* En este caso seleccionaremos `No`
+
+---
+
+### Pregunta #5
+
+```bash
+ Install with npm and start now?
+```
+
+* En este caso seleccionaremos `Yes`
+
+Y ya estaría, nos daria la dirección local (Servidor de desarrollo).
+
+**Consejo:** Usa `Ctrl + J` para ocultar la terminal y que siga corriendo en segundo plano nuestro Servidor de desarrollo.
+
+---
+
+
+## 4. Arrancar el servidor de desarrollo
 
 ```bash
 npm run dev
@@ -75,6 +117,9 @@ Ya con esto tienes:
 * **npm** (gestor de dependencias).
 * **React** (framework de UI).
 * **Vite** (herramienta que configura y levanta todo rápido).
+
+Tendrás un proyecto inicial de esta manera:
+![Estructura Inicial del proyecto](../Img/Estructura_Proyecto_Inicial.png)
 
 ---
 
